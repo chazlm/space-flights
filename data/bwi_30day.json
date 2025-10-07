@@ -1,0 +1,159 @@
+{
+  "terminal": "BWI",
+  "month": "OCT",
+  "year": "2025",
+  "flights": [
+    {
+      "day": 1,
+      "destination": "PITUFFIK SB, GREENLAND"
+    },
+    {
+      "day": 16,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 2,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 17,
+      "destination": "MCGUIRE AFB, NEW JERSEY"
+    },
+    {
+      "day": 3,
+      "destination": "MCGUIRE AFB, NEW JERSEY"
+    },
+    {
+      "day": 18,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 4,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 19,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 5,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 20,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 6,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 21,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 7,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 22,
+      "destination": "RAMSTEIN AB, GERMANY"
+    },
+    {
+      "day": 8,
+      "destination": "RAMSTEIN AB, GERMANY"
+    },
+    {
+      "day": 22,
+      "destination": "PITUFFIK SB, GREENLAND"
+    },
+    {
+      "day": 8,
+      "destination": "PITUFFIK SB, GREENLAND"
+    },
+    {
+      "day": 23,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 9,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 24,
+      "destination": "MCGUIRE AFB, NEW JERSEY"
+    },
+    {
+      "day": 10,
+      "destination": "MCGUIRE AFB, NEW JERSEY"
+    },
+    {
+      "day": 25,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 11,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 26,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 12,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 27,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 13,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 28,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 14,
+      "destination": "RAMSTEIN AB, GERMANY"
+    },
+    {
+      "day": 29,
+      "destination": "RAMSTEIN AB, GERMANY"
+    },
+    {
+      "day": 14,
+      "destination": "KUWAIT INT"
+    },
+    {
+      "day": 29,
+      "destination": "PITUFFIK SB, GREENLAND"
+    },
+    {
+      "day": 14,
+      "destination": "AL UDEID AB, QATAR"
+    },
+    {
+      "day": 30,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 15,
+      "destination": "RAMSTEIN AB, GERMANY"
+    },
+    {
+      "day": 31,
+      "destination": "NO DEPARTURES"
+    },
+    {
+      "day": 15,
+      "destination": "PITUFFIK SB, GREENLAND"
+    },
+    {
+      "day": 30,
+      "destination": "day schedule will post the last week of the current month"
+    }
+  ]
+}
