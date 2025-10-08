@@ -1,8 +1,7 @@
-import React, { useRef } from "react";
-import type { Airport, Flight } from "../types";
+import { useRef } from "react";
+import type { Airport } from "../types";
 import { AIRPORTS, FLIGHTS } from "../data/flights"; // your lookup
 import Draggable from "react-draggable";
-import { Typography } from "@mui/material";
 
 type PopupContentProps = {
   airport: Airport;

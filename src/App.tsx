@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AirportList from "./components/AirportList";
 import FlightTable from "./components/FlightTable";
-import { Box, Typography, Paper, Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import { airports, type Airport } from "./types";
 
 const month = new Date().toLocaleString("default", { month: "long" });

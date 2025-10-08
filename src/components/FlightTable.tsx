@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Box } from "@mui/material";
 import { useState, useEffect, useRef } from "react";
 import Map, {
@@ -233,7 +232,7 @@ export default function FlightTable({ airport }: FlightListProps) {
         )}
 
         {/* Tooltip popup */}
-        {/* {hoverInfo && (
+        {hoverInfo && (
           <Popup
             longitude={hoverInfo.longitude}
             latitude={hoverInfo.latitude}
@@ -243,7 +242,7 @@ export default function FlightTable({ airport }: FlightListProps) {
           >
             {hoverInfo.text}
           </Popup>
-        )} */}
+        )}
       </Map>
     </Box>
   );

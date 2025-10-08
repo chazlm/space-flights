@@ -1,15 +1,13 @@
-// src/components/AirportList.tsx
 import * as React from "react";
 import {
   List,
   ListItem,
   ListItemText,
-  IconButton,
   Divider,
   Typography,
   Stack,
 } from "@mui/material";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import type { Airport } from "../types";
 
 type Props = {
   airports: Airport[];
@@ -23,7 +21,7 @@ export default function AirportList({ airports, onSelect }: Props) {
       <List>
         {airports.map((a, idx) => (
           <React.Fragment key={a.id}>
-            <ListItem disableGutters button onClick={() => onSelect?.(a)}>
+            <ListItem disableGutters onClick={() => onSelect?.(a)}>
               <ListItemText
                 primary={`${a.name}`}
                 secondary={a.iata}
