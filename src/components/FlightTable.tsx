@@ -146,11 +146,12 @@ export default function FlightTable({ airport }: FlightListProps) {
   return (
     <Box
       sx={{
-        width: "80vw",
-        height: "60vh",
+        width: "100%",
+        height: "100%", // ✅ fills parent’s 80vh
         position: "relative",
-        overflow: "hidden",
         borderRadius: 2,
+        boxShadow: 2,
+        overflow: "hidden",
       }}
     >
       <Map
@@ -158,7 +159,10 @@ export default function FlightTable({ airport }: FlightListProps) {
         onMove={(evt) => setViewState(evt.viewState)}
         mapStyle="mapbox://styles/scalperr/cmg31yi05008n01rj2uoa25s7"
         mapboxAccessToken={MAPBOX_TOKEN}
-        style={{ width: "100%", height: "100%" }}
+        style={{
+          width: "100%",
+          height: "100%", // fills parent Box (which is 80% height)
+        }}
         doubleClickZoom={false}
         ref={mapRef}
         interactiveLayerIds={interactiveLayerIds}

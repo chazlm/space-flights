@@ -33,9 +33,13 @@ export default function PopupContent({
           borderRadius: "8px",
           width: "300px",
           maxHeight: "200px",
-          overflowY: "auto",
+          overflowY: "auto", // ✅ enables scrolling
+          WebkitOverflowScrolling: "touch", // ✅ smooth scroll on iOS
           cursor: "grab",
           marginTop: "5rem",
+          pointerEvents: "auto", // ✅ allows clicking inside popup
+          touchAction: "auto", // ✅ prevents Mapbox from stealing scroll gestures
+          overscrollBehavior: "contain", // ✅ stops map from moving while scrolling list
         }}
       >
         <h3 style={{ marginTop: 0, marginBottom: "8px" }}>
